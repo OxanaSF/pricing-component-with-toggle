@@ -8,6 +8,7 @@ const CardDisplay = () => {
     <div className={classes.cardDisplay}>
       {cards.map((card) => (
         <Card
+          id={card.id}
           name={card.name}
           price={card.price}
           storage={card.storage}

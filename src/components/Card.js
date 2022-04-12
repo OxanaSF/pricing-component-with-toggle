@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 import ButtonPurple from "./buttons/ButtonPurple";
+import ButtonWhite from "./buttons/ButtonWhite";
 
 const Card = (props) => {
   return (
@@ -15,7 +16,7 @@ const Card = (props) => {
 
       <div className={props.cardContent}>{props.sendUp}</div>
 
-      <ButtonPurple />
+      {props.id === 2 ? <ButtonWhite /> : <ButtonPurple />}
     </div>
   );
 };

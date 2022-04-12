@@ -1,5 +1,7 @@
 export const cards = [
-    {name: "Basic", 
+  {
+    id: 1,
+    name: "Basic",
     price: 19.99,
     storage: "500 GB Storage",
     numberUsers: "2 Users Allowed",
@@ -7,9 +9,11 @@ export const cards = [
     styleCardName: "card-white",
     cardContentTop: "card-white-content-top",
     cardContent: "card-white-content",
-    cardContentDollar: "card-white-content-dollar"
-},
-    {name: "Professional", 
+    cardContentDollar: "card-white-content-dollar",
+  },
+  {
+    id: 2,
+    name: "Professional",
     price: 24.99,
     storage: "1 TB Storage",
     numberUsers: "5 Users Allowed",
@@ -17,9 +21,11 @@ export const cards = [
     styleCardName: "card-purple",
     cardContentTop: "card-purple-content-top",
     cardContent: "card-purple-content",
-    cardContentDollar: "card-purple-content-dollar"
-},
-    {name: "Master", 
+    cardContentDollar: "card-purple-content-dollar",
+  },
+  {
+    id: 3,
+    name: "Master",
     price: 39.99,
     storage: "2 TB Storage",
     numberUsers: "10 Users Allowed",
@@ -27,7 +33,6 @@ export const cards = [
     styleCardName: "card-white",
     cardContentTop: "card-white-content-top",
     cardContent: "card-white-content",
-    cardContentDollar: "card-white-content-dollar"
-}
-
+    cardContentDollar: "card-white-content-dollar",
+  },
 ];

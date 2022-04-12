@@ -1,24 +1,23 @@
-import React from 'react'
-import './Card.css'
-import ButtonPurple from './UI/buttons/ButtonPurple'
+import React from "react";
+import "./Card.css";
+import ButtonPurple from "./buttons/ButtonPurple";
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div className="card">
-        <div className="card-content-top">Basic</div>
-        
-        <div className="card-content-dollar">19.99</div>
-  
-        <div className="card-content">500 GB Storage</div>
-     
-        <div className="card-content">2 Users Allowed</div>
-   
-        <div className="card-content"> Send up to 3 GB</div>
-   
-        <ButtonPurple />
-        
-    </div>
-  )
-}
+    <div className={props.styleCardName}>
+      <div className={props.cardContentTop}>{props.name}</div>
 
-export default Card
+      <div className={props.cardContentDollar}>{props.price}</div>
+
+      <div className={props.cardContent}>{props.storage}</div>
+
+      <div className={props.cardContent}>{props.numberUsers}</div>
+
+      <div className={props.cardContent}>{props.sendUp}</div>
+
+      <ButtonPurple />
+    </div>
+  );
+};
+
+export default Card;

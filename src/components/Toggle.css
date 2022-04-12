@@ -53,6 +53,15 @@ input:checked + .slider {
   );
 }
 
+input:checked + .slider:hover,
+input:checked + .slider:active {
+    background-image: linear-gradient(
+        to right,
+        hsl(235, 75%, 88%),
+        hsl(238, 66%, 79%)
+      );
+}
+
 input:focus + .slider {
   box-shadow: 0 0 1px hsl(237, 63%, 64%);
 }

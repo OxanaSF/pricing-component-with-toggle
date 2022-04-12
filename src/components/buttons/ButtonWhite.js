@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './ButtonPurple.module.css'
+import classes from './Button.module.css'
 
 const ButtonWhite = () => {
   return (

@@ -1,14 +1,18 @@
-import React from 'react'
-import classes from './Toggle.module.css'
+import React from "react";
+import "./Toggle.css";
 
 const Toggle = () => {
   return (
-    <div className={classes.togleMain}>
-        <div>Annually</div>
-        <button>Button</button>
-        <div>Monthly</div>
-    </div>
-  )
-}
+    <div className="toggle-main">
+      <div>Annually</div>
+      <label class="switch">
+        <input type="checkbox" checked />
+        <span class="slider round"></span>
+      </label>
 
-export default Toggle
+      <div>Monthly</div>
+    </div>
+  );
+};
+
+export default Toggle;

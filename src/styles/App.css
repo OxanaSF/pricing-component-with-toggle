@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    height: 200vh;
+    background: url('./bg-top.svg') right top no-repeat;
+    background-color: hsl(240, 40%, 98%);
+    background-size: cover;
+    width: 340px;
+    padding-top: 50px;
+}
+
+.App h1 {
+    color: hsl(233, 13%, 49%);
+    text-align: center;
+}

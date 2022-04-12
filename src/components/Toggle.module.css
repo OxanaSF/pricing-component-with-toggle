@@ -1,0 +1,9 @@
+.togleMain {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: hsl(234, 14%, 74%);
+    font-size: 12px;
+}

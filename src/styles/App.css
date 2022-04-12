@@ -14,9 +14,10 @@
 
 .App {
     height: 200vh;
-    background-image: url('./images/bg-top.svg') right top no-repeat url('./images/bg-bottom.svg') bottom left no-repeat;
-    background-color: hsl(240, 40%, 98%);
-    background-size: cover;
+    background-image: url("./images/bg-top.svg"); 
+    background-position: top right -190px;
+    background-color: hsl(240, 78%, 98%);
+    background-repeat: no-repeat;
     width: 340px;
     padding-top: 50px;
 }

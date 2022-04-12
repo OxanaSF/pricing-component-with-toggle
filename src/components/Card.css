@@ -13,7 +13,7 @@
 .card-purple-content {
   color: hsl(233, 13%, 49%);
   font-size: 12px;
-  border-bottom: 1.5px solid hsl(240, 50%, 79%);
+  border-bottom: 2px solid hsl(240, 13%, 95%);
   padding: 15px 0;
 }
 
@@ -24,17 +24,12 @@
 
 .card-white-content-dollar,
 .card-purple-content-dollar {
-  border-bottom: 1.5px solid hsl(240, 5%, 89%);
+  border-bottom: 2px solid hsl(240, 13%, 95%);
   padding: 20px 0;
 }
 
 .dollar-sign {
-  vertical-align: middle;
-  font-size: 25px;
-}
-
-.card-white .dollar-sign {
-  font-size: 23px;
+  font-size: 32px;
   vertical-align: middle;
 }
 
@@ -42,6 +37,7 @@
 .card-purple-content-dollar {
   color: hsl(232, 13%, 33%);
   font-size: 60px;
+  border-bottom: 2px solid hsl(240, 13%, 95%);
 }
 
 /* =========================STYLES FOR PURPLE CARD===================== */
@@ -60,6 +56,11 @@
   color: hsl(240, 78%, 98%);
 }
 
+
+.card-purple-content-dollar,
+.card-purple-content {
+  border-bottom: 1.7px solid hsl(240, 18%, 75%);
+}
 
 
 

@@ -13,13 +13,13 @@
 .card-purple-content {
   color: hsl(233, 13%, 49%);
   font-size: 12px;
-  border-bottom: 1.5px solid hsl(240, 5%, 89%);
+  border-bottom: 1.5px solid hsl(240, 50%, 79%);
   padding: 15px 0;
 }
 
 .card-white-content-top {
   color: hsl(233, 13%, 49%);
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .card-white-content-dollar,
@@ -27,19 +27,21 @@
   border-bottom: 1.5px solid hsl(240, 5%, 89%);
   padding: 20px 0;
 }
-.card-white-content-dollar:not(:empty)::before {
-  content: "$";
+
+.dollar-sign {
+  vertical-align: middle;
   font-size: 25px;
 }
 
 .card-white .dollar-sign {
   font-size: 23px;
+  vertical-align: middle;
 }
 
 .card-white-content-dollar,
 .card-purple-content-dollar {
   color: hsl(232, 13%, 33%);
-  font-size: 47px;
+  font-size: 60px;
 }
 
 /* =========================STYLES FOR PURPLE CARD===================== */
@@ -58,12 +60,6 @@
   color: hsl(240, 78%, 98%);
 }
 
-.card-purple-content-dollar:not(:empty)::before {
-  content: "$";
-  font-size: 25px;
-}
 
-.card-white .dollar-sign {
-  font-size: 23px;
-}
+
 

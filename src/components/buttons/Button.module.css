@@ -1,28 +1,53 @@
-
 .btnPurple {
-    width: 100%;
-    padding: 15px;
-    border: 0;
-    outline: none;
-    border-radius: 6px;
-    background-image: linear-gradient(to right, hsl(236, 72%, 79%)  , hsl(237, 63%, 64%));
-    margin-top: 30px;
-    text-transform: uppercase;
-    color: hsl(240, 78%, 98%);
-    letter-spacing: 1px;
-    font-size: 12px;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  border-radius: 6px;
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: hsl(240, 78%, 98%);
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.btnPurple:active,
+.btnPurple:hover {
+  color: hsl(237, 63%, 64%);
+  cursor: pointer;
+  background-image: none;
+  background-color: #ffff;
+  border: 1.5px solid hsl(236, 72%, 79%);
 }
 
 .btnWhite {
-    width: 100%;
-    padding: 15px;
-    border: 0;
-    outline: none;
-    border-radius: 6px;
-    background-color: hsl(240, 78%, 98%);
-    margin-top: 30px;
-    text-transform: uppercase;
-    color: hsl(237, 63%, 64%);
-    letter-spacing: 1px;
-    font-size: 12px;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  border-radius: 6px;
+  background-color: hsl(240, 78%, 98%);
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: hsl(237, 63%, 64%);
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.btnWhite:active,
+.btnWhite:hover {
+  cursor: pointer;
+  background-color: none;
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  color: hsl(240, 78%, 98%);
+  border: 1.5px solid hsl(240, 7%, 86%);
 }

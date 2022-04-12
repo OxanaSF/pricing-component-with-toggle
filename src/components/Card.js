@@ -8,7 +8,10 @@ const Card = (props) => {
     <div className={props.styleCardName}>
       <div className={props.cardContentTop}>{props.name}</div>
 
-      <div className={props.cardContentDollar}>{props.price}</div>
+      <div className={props.cardContentDollar}>
+        <span className="dollar-sign">$</span>
+        {props.price}
+      </div>
 
       <div className={props.cardContent}>{props.storage}</div>
 

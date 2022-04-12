@@ -1,8 +1,9 @@
 import React from 'react'
+import classes from './ButtonPurple.module.css'
 
 const ButtonPurple = () => {
   return (
-    <div>ButtonPurple</div>
+    <button className={classes.btnPurple}>learn more</button>
   )
 }
 

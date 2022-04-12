@@ -1,5 +1,6 @@
 import React from 'react'
 import './Card.css'
+import ButtonPurple from './UI/buttons/ButtonPurple'
 
 const Card = () => {
   return (
@@ -14,7 +15,8 @@ const Card = () => {
    
         <div className="card-content"> Send up to 3 GB</div>
    
-        <button className="btn-purple">learn more</button>
+        <ButtonPurple />
+        
     </div>
   )
 }

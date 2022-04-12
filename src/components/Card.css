@@ -9,6 +9,14 @@
   border-radius: 7px;
 }
 
+@media screen and (min-width: 576px) {
+  .card-white,
+  .card-purple {
+    margin: 0;
+    width: 24%;
+  }
+}
+
 .card-white-content,
 .card-purple-content {
   color: hsl(233, 13%, 49%);
@@ -48,6 +56,13 @@
     hsl(236, 72%, 79%),
     hsl(237, 63%, 64%)
   );
+}
+
+
+@media screen and (min-width: 576px) {
+  .card-purple {
+    transform: scale(1.05);
+  }
 }
 
 .card-purple-content,

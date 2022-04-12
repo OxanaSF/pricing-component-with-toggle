@@ -1,28 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 #root {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App {
-    height: 200vh;
-    background-image: url("./images/bg-top.svg"); 
-    background-position: top right -190px;
-    background-color: hsl(240, 78%, 98%);
-    background-repeat: no-repeat;
-    width: 340px;
-    padding-top: 50px;
+  height: 220vh;
+  background-image: url("./images/bg-top.svg");
+  background-position: top right -190px;
+  background-color: hsl(240, 78%, 98%);
+  background-repeat: no-repeat;
+  display: block;
+  width: 340px;
+  padding-top: 50px;
+}
+
+@media screen and (min-width: 576px) {
+  .App {
+    height: 60vh;
+    width: 1250px;
+    background-image: url("./images/bg-top.svg"), url("./images/bg-bottom.svg");
+    background-position: top right -190px, bottom left;
+    margin-top: 200px;
+  }
 }
 
 .App h1 {
-    color: hsl(233, 13%, 49%);
-    text-align: center;
+  color: hsl(233, 13%, 49%);
+  text-align: center;
 }
